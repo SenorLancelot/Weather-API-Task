@@ -174,16 +174,3 @@ The Weather App relies on several npm packages to function:
   // Historical weather data
   ```
 
-## Error Handling
-
-The application handles errors and provides meaningful error responses. If an error occurs, the server responds with a JSON object containing the error message.
-
-Example:
-
-```json
-{
-  "error": "Location not found"
-}
-```
-
-Additionally, there is a global error handler middleware that logs the error stack and responds with a generic error message when an unhandled error occurs.
